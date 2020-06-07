@@ -19,7 +19,7 @@ int main ()
     n = get_float("Input n (No. of periods np. 12): ");
 
     //FV calculation
-    FV = (float)PV * (1 + r * n);
+    FV = PV * (1 + r * n);
 
     //Answer presentation
     printf("The FV is: %.2f\n", FV);
